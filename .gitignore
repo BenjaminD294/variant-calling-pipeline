@@ -1,0 +1,17 @@
+# Generated from application
+out
+temp
+vcp.zip
+
+# External applications
+vendor/*
+!vendor/.gitkeep
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache
+.venv

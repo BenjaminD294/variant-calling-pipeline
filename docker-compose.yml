@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  variant_calling_dev:
+    build:
+      dockerfile: Dockerfile
+      context: '.'
+    volumes:
+      - ./${OUT_FOLDER}:/home/${OUT_FOLDER}/
