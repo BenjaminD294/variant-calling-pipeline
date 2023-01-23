@@ -1,6 +1,6 @@
 # Variant Calling Pipeline for Spike Protein
 
-This code aims to be a proof-of-concept for a simple variant calling pipeline on different SARSCov-2 Spike gene mutation.
+This code aims to be a proof-of-concept for a simple variant calling pipeline on different SARSCov-2 Spike gene mutations.
 
 ## Installation
 
