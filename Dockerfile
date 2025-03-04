@@ -27,7 +27,7 @@ COPY poetry.toml /home/
 COPY pyproject.toml /home/
 
 WORKDIR /home/
-RUN poetry install
+RUN poetry install --no-root
 
 # Builds and runs the project
 COPY data data
